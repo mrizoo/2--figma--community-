@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Karal", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EFF5;
+    line-height: normal;
+}
+
+.card {
+    width: 635px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+
+}
+
+.card__label {
+    padding-top: 40px;
+    margin-bottom: 24px;
+    color: #2AB3B1;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    padding-left: 40px;
+}
+
+.card__label-mini {
+    margin-bottom: 11px;
+    color: #C0DF33;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.225px;
+    padding-left: 40px;
+}
+
+.card__description {
+    color: #9AA7BE;
+    width: 555px;
+    padding-right: 40px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2AB3B1;
+    border-radius: 0 0 8px 8px;
+}
+
+.card__wrapper{
+    padding: 40px 40px;
+}
+
+.card__title {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.225px;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.card__price {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 26px;
+}
+
+.card__big__price {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: normal;
+}
+
+.card__price__info {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.card__btn {
+    justify-content: centera;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    background: #C0DF33;
+    width: 237px;
+    height: 48px;
+    color: #fff;
+    padding-left: 89px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+    transition: all 0.5s;
+}
+.card__btn:hover {
+    
+    transform: scale(1.1);
+}
+
+.card__tutorial {
+   width: 318px;
+   padding: 40px 40px;
+ background-color: rgba(255, 255, 255, 0.1519);
+}
+
+.card__tutorial__des {
+    width: 238px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 20px;
+    letter-spacing: -0.175px
+}
